@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+/*메인슬라이더*/
+.mainSlider{
+    height:600px;/*엡솔때문에닫혀서이미지사이즈만큼높이값줌*/
+    overflow: hidden;/*넘친이미지안보이게랠러티브안하면효과없음*/
+    position:relative;
+}
+.mainSlider img{
+    position:absolute;/*중앙정렬을위해띄움*/
+    left:50%;/*엡솔처럼반을이동포지션값준애한테만먹음*/
+    margin-left:-960px;/*left50%준후이미지전체사이즈-값만큼다시중앙으로이동*/
+}
+.mainSlider ul{
+    position:absolute;/*메인슬라이더뒤에숨은버튼이미지를통째로띄워여함*/
+}
+.mainSlider li a{display:block;}/*a가인라인이어서뜨기때문에블락으로바꿔서내려주기*/
+
+.mainSlider li{float: left;}
+
+.sliderLBut{
+    left:50%;/*50퍼만큼옮기고마진left-600만큼주면이너값의1200을반나눈값인600을주면이너안에버튼들이들어온다*/
+    bottom:20px;
+    margin-left:-600px;
+}
+.sliderLBut li{
+    width:16px;
+    height:16px;
+    background:url(../images/main/blet_visual.png)no-repeat;/*../는상위폴더*/
+    text-indent:-9999px;/*버튼1234빼기*/
+    margin-right:5px;
+}
+
+.sliderLBut li:first-child{
+    background-position:0 -16px;/*위치값만16px옮겨줌*/
+}
+
+.sliderLBut li a{
+    display:block;
+    height:100%;
+}
+
+.sliderRBut{
+    bottom:0;
+    right:50%;
+    margin-right:-600px;
+    text-indent:-9999px;
+}
+.sliderRBut li{
+    width: 45px;
+    height:45px;
+    background:url(../images/main/btn_visual_cnt.png)no-repeat -46px 0;/*위치옮김*/
+    margin-left:1px;
+}
+.sliderRBut li:first-child{background-position:0 0;}
+.sliderRBut li:last-child{background-position:-92px 0;}
+.sliderRBut li a{}
+
+/*메인컨01*/
+.mainCon01{
+    background-color:#1C97FE;
+    color:#fff;/*a태그안에글씨제외하한제목만흰색으로바뀜*/
+    padding:50px 0;/*위아래여백줘서중앙정렬*/
+}
+
+.con01List{}/*박스273에여백36사이즈*/
+.gridList li{
+    width:273px;
+    margin-right:36px;
+    float:left;
+}
+.gridList li:last-child{margin-right:0;}
+.gridList li img{
+    width:100%;
+    display:block;
+}
+.con01List li h3{
+    font-size:20px;
+    font-weight:normal;
+}
+.con01List li a{}
+.con01List li img{
+    margin:10px 0;
+}
+.con01List li p{
+    color:#fff;
+    font-size:11px;
+}
+
+/*메인컨02*/
+.mainCon02{
+    background:url(../images/main/brandSite_bg.png) no-repeat center center;
+    background-size:cover;/*씌워줌센터센터는백그라운드이미지를중앙정렬*/
+    text-align:center;/*이미지랑텍스트중앙정렬할때글씨이미지는전부인라인요소라서내려받아서전부중앙정렬한다*/
+    padding:50px 0;
+}
+/*.gridlist li{width:273px;
+    margin-right:36px; 
+    float:left;}*/
+.con02List{
+    margin-top:20px;
+}
+.con02List li{
+    width:273px;
+    margin-right:36px;
+    float:left;
+}
+.con02List li:last-child{margin-right: 0;}
+.con02List li h4{margin:20px 0;}
+.con02List li h4 span{font-size:12px;}
+
+.viewBut{
+    margin:0 auto;/*뷰버튼중앙정렬*/
+    width:130px;
+    background-color:#263D92;
+    line-height:40px;/*뷰버튼위아래두께*/
+    letter-spacing:2px;/*자간*/
+    border-radius:20px;
+}
+.viewBut a{color:#fff;
+display:block;/*라인헤이트로부터상속받아서버튼전체가손락락으로변함*/}
+
+/*메인컨03*/
+.mainCon03{padding:50px 0;}
+.mainCon03 h2{
+    margin-bottom:30px;
+    text-align:center;
+}
+.mainCon03 h2 img{}
+
+.Con03List{}
+.Con03List li{
+    box-shadow:0px 5px 10px rgba(0,0,0,0.2);/*x값,y값,퍼지는정도,거리,rgba는투명도,그림자주는효과*/
+    width:376px;
+}
+
+.con03Info{}
+.con03Info h3{
+    /*글씨에그림자주는법text-shadow*/
+}
+.con03Info p{
+    font-size: 13px;
+    margin-bottom:20px;}
+
+.viewBut{}
+.viewBut a{}
+
+.con03Info{padding:20px;}
+.con03Info .viewBut{
+    width:110px;
+    margin:0;
+    text-align: center;
+    background:#1c97fe;
+}
+.con03Info .viewBtn a{}
