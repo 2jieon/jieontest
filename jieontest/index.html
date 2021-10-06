@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>삼성디스플레이</title>
+        <link rel="stylesheet" type="text/css" href="css/default.css">
+        <link rel="stylesheet" type="text/css" href="css/include.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!--전체-->
+        <div id="wrap">
+            <!--헤더-->
+            <header id="header">
+            </header>
+            <!--헤더-->
+            
+            <!--컨테이너-->
+            <div id="container" class="row">
+                <div class="boxWrap">
+                    <div class="imgBox">
+                        <img src="imges/main/dog.jpg">
+                    </div>
+                    
+                    <div class="txtBox">
+                        <p>연산2동 1476 국민연금관리공단 앞</p>
+                    </div>
+
+                    <div class="btnWrap">
+                        <p class="txt1"> <img src="imges/main/reload.png">새로고침</p>
+                        <p class="txt2"> <img src="imges/main/pen.png">수정</p>
+                        <p class="txt3"> <img src="imges/main/map.png">상세위치</p>
+                    </div>
+                </div>
+            </div>
+            <!--컨테이너-->
+            
+            <!--푸터-->
+            <footer id="footer">
+            </footer>
+        </div>
+        <!--전체-->
+    </body>
+</html>
+
+
+
+
+<style>
+.row{ margin:0;}
+.imgBox img{width: 100%; display: block; margin: 0 auto;}
+.boxWrap { max-width: 1200px;display: block; margin: 0 auto;}
+.btnWrap img { width: 15px; margin-right: 7px;}
+.txtBox p{ margin: 0 auto; display: block;text-align: center;}
+.btnWrap p{ margin: 0 auto; margin: 0; text-align: center;padding:20px; display: inline-block;float: left;}
+
+.txt1 {width: 33.3%;}
+.txt2 {width: 33.3%;}
+.txt3 {width: 33.3%;}
+    
+.txtBox{padding:20px;background:#e9ecef;}
+.txt1 {background:rgb(72 79 90 / 25%);}
+.txt2 {background:#ddd;}
+.txt3 {background:#bbb;}
+
+@media screen and (max-width: 991px){
+.txt1 {width:100%;}
+.txt2 {width:50%;}
+.txt3 {width:50%; float: left;}
+}
+@media screen and (max-width: 767px){
+.txt2 {width:100%;}
+.txt3 {width:100%;}
+}
+</style>

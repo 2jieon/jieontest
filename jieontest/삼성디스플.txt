@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>
+<link rel="stylesheet" type="text/css" href="css/default.css">
+<link rel="stylesheet" type="text/css" href="css/include.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<head>
+<body>
+--전체
+--헤더<로고><메뉴><언어>
+--컨테이너<메인슬라이더(버튼2개)>
+<body>
