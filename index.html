@@ -20,22 +20,90 @@
             <!--헤더-->
             
             <!--컨테이너-->
-            <div id="container" class="row">
-                <div class="boxWrap">
-                    <div class="imgBox">
-                        <img src="imges/main/dog.jpg">
-                    </div>
-                    
-                    <div class="txtBox">
-                        <p>연산2동 1476 국민연금관리공단 앞</p>
-                    </div>
+            <div id="container" class="row" style="margin-top:60px; max-width: 1200px;">
+               <!--con01-->
+               <div class="row con01">
+                   <div class="boxWrap">
+                        <div class="time-wrap">
+                           <div class=""><p>DIB1</p></div>
+                           <div class=""><p>BTN</p></div>
+                           <div class=""><p style="transform: translate(40px, 0);">2021-10-08 08:00</p></div>
+                        </div>
+                       
+                        <div class="imgBox">
+                            <img src="imges/main/yel.png">
+                        </div>
 
-                    <div class="btnWrap">
-                        <p class="txt1"> <img src="imges/main/reload.png">새로고침</p>
-                        <p class="txt2"> <img src="imges/main/pen.png">수정</p>
-                        <p class="txt3"> <img src="imges/main/map.png">상세위치</p>
+                        <div class="txtBox">
+                            <p>연산2동 1476 국민연금관리공단 앞</p>
+                        </div>
+
+                        <div class="btnWrap">
+                            <a href="#" onClick="top.location='javascript:location.reload()'"><p class="txt1"> <img src="imges/main/reload.png">새로고침</p></a>
+                            <a href="#"><p class="txt2"> <img src="imges/main/pen.png">수정</p></a>
+                            <a href="http://kko.to/SB_RNsc4B" target="_blank"><p class="txt3"> <img src="imges/main/map.png">상세위치</p></a>
+                        </div>
+                    </div>
+                </div>    
+                <!--con01-->
+                
+                
+                
+                <!--con02-->
+                <div class="row con02">
+                    <div class="boxWrap">
+                       
+                        <div class="time-wrap">
+                           <div class=""><p>DIB1</p></div>
+                           <div class=""><p>BTN</p></div>
+                           <div class=""><p style="transform: translate(40px, 0);">2021-10-08 08:00</p></div>
+                        </div>
+                        
+                        <div class="imgBox">
+                            <img src="imges/main/navy.png">
+                        </div>
+
+                        <div class="txtBox">
+                            <p>연산2동 1476 국민연금관리공단 앞</p>
+                        </div>
+
+                        <div class="btnWrap">
+                            <a href="#" onClick="top.location='javascript:location.reload()'"><p class="txt1"> <img src="imges/main/reload.png">새로고침</p></a>
+                            <a href="#"><p class="txt2"> <img src="imges/main/pen.png">수정</p></a>
+                            <a href="http://kko.to/SB_RNsc4B" target="_blank"><p class="txt3"> <img src="imges/main/map.png">상세위치</p></a>
+                        </div>
                     </div>
                 </div>
+                <!--con02-->
+                
+                
+                
+                <!--con03-->
+                <div class="row con03">
+                    <div class="boxWrap">
+                        <div class="time-wrap">
+                           <div class=""><p>DIB1</p></div>
+                           <div class=""><p>BTN</p></div>
+                           <div class=""><p style="transform: translate(40px, 0);">2021-10-08 08:00</p></div>
+                        </div>
+                        
+                        <div class="imgBox">
+                            <img src="imges/main/sel.png">
+                        </div>
+
+                        <div class="txtBox">
+                            <p>연산2동 1476 국민연금관리공단 앞</p>
+                        </div>
+
+                        <div class="btnWrap">
+                            <a href="#" onClick="top.location='javascript:location.reload()'"><p class="txt1"> <img src="imges/main/reload.png">새로고침</p></a>
+                            <a href="#"><p class="txt2"> <img src="imges/main/pen.png">수정</p></a>
+                            <a href="http://kko.to/SB_RNsc4B" target="_blank"><p class="txt3"> <img src="imges/main/map.png" >상세위치</p></a>
+                        </div>
+                    </div>
+                </div>    
+                <!--con03-->
+                
             </div>
             <!--컨테이너-->
             
@@ -51,29 +119,64 @@
 
 
 <style>
-.row{ margin:0;}
-.imgBox img{width: 100%; display: block; margin: 0 auto;}
-.boxWrap { max-width: 1200px;display: block; margin: 0 auto;}
-.btnWrap img { width: 15px; margin-right: 7px;}
-.txtBox p{ margin: 0 auto; display: block;text-align: center;}
-.btnWrap p{ margin: 0 auto; margin: 0; text-align: center;padding:20px; display: inline-block;float: left;}
-
-.txt1 {width: 33.3%;}
-.txt2 {width: 33.3%;}
-.txt3 {width: 33.3%;}
+/*폰트*/
+@font-face {
+font-family: 'SpoqaHanSansNeo-Regular';
+src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
     
-.txtBox{padding:20px;background:#e9ecef;}
-.txt1 {background:rgb(72 79 90 / 25%);}
-.txt2 {background:#ddd;}
-.txt3 {background:#bbb;}
+    .row{padding-top:20px; padding-bottom:20px; margin:0 auto; font-family: 'SpoqaHanSansNeo-Regular';word-break: keep-all;}
+    .imgBox img{width: 100%; display: block; margin: 0 auto;}
+    .boxWrap { width: 100%; position: relative; max-width: 320px;display: block; margin: 0 auto;border-radius: 14px; overflow: hidden; padding: 0;box-shadow: 4px 12px 30px 6px rgb(0 0 0 / 9%);}
+    .boxWrap:hover{box-shadow: 4px 12px 20px 6px rgb(0 0 0 / 18%);transition: all .3s ease;transform: translateY(-5px);} 
+    .btnWrap img { width: 15px; margin-right: 7px;}
+    .txtBox{padding:20px;}
+    .txtBox p{ margin: 0 auto; display: block;text-align: center; }
+    .btnWrap p{ margin: 0 auto; margin: 0; text-align: center;padding:20px; display: inline-block;float: left; color: #333;font-size: 12px;}
+    .time-wrap p{font-size: 14px; background: #fff; display: inline-block; padding: 5px 10px; border-radius: 14px; float: left;margin: 10px 0px 10px 10px;}
+    .time-wrap {width: 100%;position: absolute; background: rgb(255 255 255 / 30%); backdrop-filter: blur(10px);}
 
-@media screen and (max-width: 991px){
-.txt1 {width:100%;}
-.txt2 {width:50%;}
-.txt3 {width:50%; float: left;}
-}
-@media screen and (max-width: 767px){
-.txt2 {width:100%;}
-.txt3 {width:100%;}
-}
+    .con01 {border-radius: 14px; width: 33.333%}
+    .con02 {border-radius: 14px; width: 33.333%}
+    .con03 {border-radius: 14px; width: 33.333%}
+    
+    .btnWrap .txt1 {width: 33.333%; background: #f5f5f5;}
+    .btnWrap .txt2 {width: 33.333%; background: #333C49; color:#fff;}
+    .btnWrap .txt3 {width: 33.333%; background: #555D6F; color:#fff;}
+
+    
+
+    /**/
+    /**/
+    /**/
+    @media screen and (max-width: 1028px){
+    .txt1, .txt2, .txt3{height: 73px;}
+    .btnWrap img {display: block;margin: 0 auto;padding-bottom: 5px;}
+    }  
+    @media screen and (max-width: 991px){
+    .txt1 {width:100%;}
+    .txt2 {width:50%;}
+    .txt3 {width:50%; float: left;}
+    }
+    @media screen and (max-width: 767px){
+    .txt2 {width:100%;}
+    .txt3 {width:100%;}
+    }
+
+    @media screen and (max-width: 991px){
+    .con01 {width:50%;}
+    .con02 {width:50%;}
+    .con03 {width:100%; float: left;}
+    }
+    @media screen and (max-width: 767px){
+    .con01 {width:100%;}
+    .con02 {width:100%;}
+    .con03 {width:100%;}
+    }
+
+
 </style>
+
+
